@@ -1,0 +1,72 @@
+:root {
+      
+    font-size: 60%;
+
+    --color-background: #F0F0F7;
+    --color-primary-lighter: #9871F5;
+    --color-primary-light: #916BEA;
+    --color-primary: #8257E5;
+    --color-primary-dark: #774DD6;
+    --color-primary-darker: #6842C2;
+    --color-secundary: #04D361;
+    --color-secundary-dark: #04BF58;
+    --color-title-in-primary: #FFFFFF;
+    --color-text-in-primary: #D4C2FF;
+    --color-text-title: #32264D;
+    --color-text-complement: #9C98A6;
+    --color-text-base: #6A6180;
+    --color-line-in-white: #E6E6F0;
+    --color-input-background: #F8F8FC;
+    --color-button-text: #FFFFFF;
+    --color-box-base: #FFFFFF;
+    --color-box-footer: #FAFAFC;
+}
+
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box; /* para fazer com que o padding conte na largura do elemento*/
+}
+
+html, body, #root {
+    height: 100vh; /* para fazer com que ocupe toda a tela, toda há altura da tela*/
+}
+
+body {
+    background: var(--color-background);
+}
+  
+#root {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* esses 3 caras vão fazer com que tudo dentro da nossa tela 
+    fique alinhado no centro da tela como uma mira de dardos.*/
+
+}
+
+body,
+input,
+button,
+textarea {
+    font: 500 1.6rem Poppins;
+
+    /*O que quer dizer o rem? quer dizer que ele sempre 
+    vai pegar o valor de forma responsiva e quando eu precisar
+    mudar algo eu so mudo no font-size global lá em cima*/
+}
+
+.container {
+    width: 90vw; /*vai ocupar a tela 90% da tela orizontalmente e um max-width: ;*/ 
+    max-width: 700px;
+}
+
+@media (min-width: 700px) {
+    :root {
+        font-size: 62.5%;
+    }
+}   
+
+
+/*em dispositivos que eu esteja com
+uma largura de no minino de 700px eu vou aumentar a font*/
