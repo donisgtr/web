@@ -22,7 +22,7 @@
     --color-box-footer: #FAFAFC;
 }
 
-*{
+* {
       margin: 0;
       padding: 0;
       box-sizing: border-box; /* para fazer com que o padding conte na largura do elemento*/
@@ -61,7 +61,9 @@ textarea {
     max-width: 700px;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 700px)  {
+    /*quando a tela passar de 70000px
+      tudo aqui em baixo vai ser aplicado*/
     :root {
         font-size: 62.5%;
     }
