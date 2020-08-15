@@ -50,6 +50,7 @@ input,
 button,
 textarea {
     font: 500 1.6rem Poppins;
+    color: var(--color-text-base);
 
     /*O que quer dizer o rem? quer dizer que ele sempre 
     vai pegar o valor de forma responsiva e quando eu precisar
