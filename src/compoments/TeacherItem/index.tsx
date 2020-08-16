@@ -3,7 +3,7 @@ import TeacherForm from '../../pages/TeacherFrom';
 
 import whatsappIcon from "../../assests/images/icons/whatsapp.svg";
 
-import "./styles.css";
+import "./styles.css"; 
 
 function TeacherItem() {
     return(
